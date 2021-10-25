@@ -21,6 +21,9 @@ module.exports = {
             }
         ]
     },
+    devServer: {
+        static: './dist',
+    },
     plugins: [
         new HtmlWebpackPlugin([{
             inject: true,
